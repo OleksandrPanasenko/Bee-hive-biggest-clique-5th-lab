@@ -16,7 +16,7 @@ namespace BeeColony{
             }
             for (int i = 0;i<Vertices.Count;i++){
                 for(int j = 0;j < Vertices.Count;j++){
-                    if(i!=j&&field.Graph[i,j]==false){
+                    if(i!=j&&field.Graph[Vertices[i],Vertices[j]]==false){
                         Value = 0;
                         return Value;
                     }

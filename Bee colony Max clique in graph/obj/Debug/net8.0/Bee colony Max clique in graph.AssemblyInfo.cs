@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bee colony Max clique in graph")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f1dd57d0d0d65589684e003e9ed91da36b1b15b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bee colony Max clique in graph")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bee colony Max clique in graph")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

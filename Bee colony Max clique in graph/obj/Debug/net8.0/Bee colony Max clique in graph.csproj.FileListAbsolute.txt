@@ -1,0 +1,15 @@
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\bin\Debug\net8.0\Bee colony Max clique in graph.exe
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\bin\Debug\net8.0\Bee colony Max clique in graph.deps.json
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\bin\Debug\net8.0\Bee colony Max clique in graph.runtimeconfig.json
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\bin\Debug\net8.0\Bee colony Max clique in graph.dll
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\bin\Debug\net8.0\Bee colony Max clique in graph.pdb
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.GeneratedMSBuildEditorConfig.editorconfig
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.AssemblyInfoInputs.cache
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.AssemblyInfo.cs
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.csproj.CoreCompileInputs.cache
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.sourcelink.json
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.dll
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\refint\Bee colony Max clique in graph.dll
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.pdb
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\Bee colony Max clique in graph.genruntimeconfig.cache
+D:\Алгоритми\Lab 5 Make Yushchenko Proud!\Bee colony Max clique in graph\obj\Debug\net8.0\ref\Bee colony Max clique in graph.dll

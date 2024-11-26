@@ -2,8 +2,9 @@
 namespace BeeColony{
     
     public class Bee{
-        const bool WORKER = true;
-        const bool SCOUT = false;
+        public Field field;
+        public const bool WORKER = true;
+        public const bool SCOUT = false;
         public bool State;
 
         public FoodSource Location;
@@ -11,7 +12,7 @@ namespace BeeColony{
         public void WorkOnExisting(){
             Random random = new Random();
             int Position=random.Next(Location.Vertices.Count);
-            int old=Location.Vertices[Position];
+            int oldVertice=Location.Vertices[Position];
             int OldValue=Location.Evaluate();
             List<int> avaliable=new List<int>();
             for(int i = 0;i<Location.field.Size;i++){
@@ -19,7 +20,8 @@ namespace BeeColony{
             }
             Location.Vertices[Position]=avaliable[random.Next(avaliable.Count)];
             if(Location.Evaluate()<OldValue){
-                Location.Vertices[Position]=OldValue;
+                Location.Vertices[Position]=oldVertice;
+                Location.Evaluate();
             }
             else{
                 GreedyIteration();
@@ -30,11 +32,12 @@ namespace BeeColony{
             else{
                 Location.StepsNotChanged++;
             }
+            if(Location.Value==0) throw new Exception("Value became 0! unacceptable!"); 
             if(Location.Vertices.Count>Location.field.RecordLength){
                 Location.field.RecordLength=Location.Vertices.Count;
                 Location.field.record=Location;
             }
-
+            
         }
 
         /*public FoodSource SearchForNew(){
@@ -57,8 +60,10 @@ namespace BeeColony{
             }
             foreach(int i in avaliable){
                 if(VerticeCliqueAddition(i)){
+                    Location.Vertices.Add(i);
+                    
                     GreedyIteration();
-                    return;
+                    break;
                 }
             }
         }
@@ -71,9 +76,10 @@ namespace BeeColony{
         }
         public void RandomSearch(){
             Random random = new Random();
-            Location=new FoodSource(Location.field);
-            Location.Vertices.Add(random.Next(Location.field.Size));
+            Location=new FoodSource(field);
+            Location.Vertices.Add(random.Next(field.Size));
             GreedyIteration();
+            Location.Evaluate();
         }
         public void ReplaceRandom(){
             
